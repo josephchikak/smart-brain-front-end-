@@ -1,0 +1,24 @@
+*, *::after,*::before{
+  box-sizing: border-box;
+}
+
+.image{
+ position: relative;
+display: grid;
+place-content: center;
+padding-top: 10px;
+}
+
+.bounding-box{
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
+.relative{
+  position: relative;
+}

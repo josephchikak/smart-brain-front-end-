@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto:wght@300&family=Sulphur+Point&display=swap');
+
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    max-width: 30ch;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    box-shadow:
+    0px 4.1px 10px rgba(0, 0, 0, 0.19),
+    0px 33px 80px rgba(0, 0, 0, 0.38);
+
+}
+
+.sign-container{
+    display: flex;
+    justify-content: center;
+    color: rgb(210, 207, 207);
+    font-family: sans-serif; 
+    text-transform: uppercase;
+}
+
+.fm{
+    display: flex;
+    
+    flex-direction: column;
+}

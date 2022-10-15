@@ -1,0 +1,7 @@
+.sign-out{
+  width: 100px;
+  border-radius: 5px;
+  box-shadow:
+  1.9px 2.1px 10px rgba(0, 0, 0, 0.445),
+  15px 17px 80px rgba(0, 0, 0, 0.89);
+}
