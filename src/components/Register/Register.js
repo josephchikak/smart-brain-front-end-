@@ -22,7 +22,7 @@ const Register =({onRouteChange, loadUser}) =>{
     }
 
     const onSubmitSignUp = () =>{
-        fetch('https://shrouded-tundra-93526.herokuapp.com/register', {
+        fetch('https://smart-brain-api-production-6c94.up.railway.app/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
