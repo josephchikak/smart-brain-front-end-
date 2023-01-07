@@ -19,7 +19,7 @@ function Navigation({onRouteChange, isSignedIn}) {
     <nav style={{display: "flex", justifyContent: 'space-between', padding:'10px', maxHeight:'3em'}}>
         <Logo />
         <div>
-            <Button onClick={()=>onRouteChange('home')}>
+            <Button onClick={()=>onRouteChange('signin')}>
                 <p className="sign-out">Sign In</p>
             </Button>
             <Button onClick={()=>onRouteChange('register')}>
